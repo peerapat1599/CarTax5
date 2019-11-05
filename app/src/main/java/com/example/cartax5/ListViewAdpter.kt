@@ -50,7 +50,7 @@ class ListViewAdpter(var context: Context?, var carId: ArrayList<HomeList>) : Ba
     }
 
     override fun getCount(): Int {
-        return carId.count();
+        return carId.count()
     }
 
     fun updateReceiptsList(newlist:ArrayList<HomeList>){
