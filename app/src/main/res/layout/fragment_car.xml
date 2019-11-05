@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CarFragment"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <TextView
+            android:id="@+id/txtCarDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/carDetailValue"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtCarIdDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/carIdDetailValue"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtValue1"
+            app:layout_constraintStart_toEndOf="@+id/txtValue1" />
+
+        <TextView
+            android:id="@+id/txtCarType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/carIdDetailValue"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtValue2"
+            app:layout_constraintStart_toEndOf="@+id/txtValue2" />
+
+        <TextView
+            android:id="@+id/txtCarCC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/carIdDetailValue"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtValue3"
+            app:layout_constraintStart_toEndOf="@+id/txtValue3" />
+
+        <TextView
+            android:id="@+id/txtCarWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/carIdDetailValue"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtValue4"
+            app:layout_constraintStart_toEndOf="@+id/txtValue4" />
+
+        <TextView
+            android:id="@+id/txtCarRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/carIdDetailValue"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtValue5"
+            app:layout_constraintStart_toEndOf="@+id/txtValue5" />
+
+        <TextView
+            android:id="@+id/txtCarExpire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:text="@string/carIdDetailValue"
+            android:textSize="20sp"
+            app:layout_constraintBaseline_toBaselineOf="@+id/txtValue6"
+            app:layout_constraintStart_toEndOf="@+id/txtValue6" />
+
+        <TextView
+            android:id="@+id/txtValue1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="64dp"
+            android:text="@string/txtValueOne"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toTopOf="@+id/txtValue2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtCarDetail" />
+
+        <TextView
+            android:id="@+id/txtValue2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtValueTwo"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue1" />
+
+        <TextView
+            android:id="@+id/txtValue3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtValueThree"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue2" />
+
+        <TextView
+            android:id="@+id/txtValue4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtValueFour"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue3" />
+
+        <TextView
+            android:id="@+id/txtValue5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtValueFive"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue4" />
+
+        <TextView
+            android:id="@+id/txtValue6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/txtValueSix"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue5" />
+
+        <Button
+            android:id="@+id/btnPay"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:text="@string/btnPayValue"
+            app:layout_constraintEnd_toStartOf="@+id/btnDelete"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtValue6" />
+
+        <Button
+            android:id="@+id/btnDelete"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnDeleteValue"
+            app:layout_constraintBaseline_toBaselineOf="@+id/btnPay"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toEndOf="@+id/btnPay" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

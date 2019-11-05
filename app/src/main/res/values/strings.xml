@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CarTax5</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="about">เกี่ยวกับ</string>
+    <string name="into_about">ชื่อแอพพลิเคชั่น : CarTax5</string>
+    <string name="into_about2">รายละเอียด : บันทึกการเสียภาษี</string>
+    <string name="into_about3">เวอร์ชั่น : 1.1.0</string>
+    <string name="into_car_number">ทะเบียนรถ</string>
+    <string name="hint_resource">ประเภท  (ดำ/เขียว/ฟ้า)</string>
+    <string name="into_car_color">ประเภท  (ดำ/เขียว/ฟ้า)</string>
+    <string name="into_car_cc">ความจุ (cc)</string>
+    <string name="into_car_weigth">น้ำหนักรถ (กิโลกรัม)</string>
+    <string name="into_car_start">อายุรถ (ปี)</string>
+    <string name="into_car_stop">วันหมดอายุ (วัน/เดือน/พ.ศ.)</string>
+    <string name="saveBtn">บันทึก</string>
+    <string name="nameTitle">บันทึกข้อมูล</string>
+    <string name="carId">ยก-1111</string>
+    <string name="dateExpireValue"> 29/10/2562</string>
+    <string name="priceValue"> 3000</string>
+    <string name="mainTitleValue">ข้อมูลรถทั้งหมด</string>
+    <string name="txtOne">หมดอายุ:</string>
+    <string name="txtTwo">ราคา:</string>
+    <string name="carDetailValue">รายละเอียด</string>
+    <string name="txtIdValue">เลขทะเบียน: </string>
+    <string name="carIdDetailValue">ยก-2222</string>
+    <string name="txtValueOne">เลขทะเบียน:</string>
+    <string name="txtValueTwo">ประเภท:</string>
+    <string name="txtValueThree">ความจุ:</string>
+    <string name="txtValueFour">น้ำหนัก:</string>
+    <string name="txtValueFive">อายุรถ:</string>
+    <string name="txtValueSix">วันหมดอายุ:</string>
+    <string name="btnPayValue">จ่ายแล้ว</string>
+    <string name="btnDeleteValue">ลบ</string>
+    <string name="txtNacControl">CarTax5</string>
+</resources>

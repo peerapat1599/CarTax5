@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/menuFragment">
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.cartax5.MenuFragment"
+        android:label="หน้าหลัก">
+        <action
+            android:id="@+id/action_menuFragment_to_intoFragment"
+            app:destination="@id/intoFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_carFragment"
+            app:destination="@id/carFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/intoFragment"
+        android:name="com.example.cartax5.IntoFragment"
+        android:label="บันทึกข้อมูล"
+        tools:layout="@layout/fragment_into" >
+        <action
+            android:id="@+id/action_intoFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.cartax5.AboutFragment"
+        android:label="เกี่ยวกับ"
+        tools:layout="@layout/fragment_about" />
+    <fragment
+        android:id="@+id/carFragment"
+        android:name="com.example.cartax5.CarFragment"
+        android:label="รายละเอียด"
+        tools:layout="@layout/fragment_car" >
+        <action
+            android:id="@+id/action_carFragment_to_menuFragment"
+            app:destination="@id/menuFragment" />
+    </fragment>
+</navigation>

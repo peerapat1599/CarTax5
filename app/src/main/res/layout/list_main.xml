@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/txtCarId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="24dp"
+        android:text="@string/carId"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtDateExpire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:text="@string/dateExpireValue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtPrice"
+        app:layout_constraintStart_toEndOf="@+id/txt1"
+        app:layout_constraintTop_toTopOf="@+id/txt1" />
+
+    <TextView
+        android:id="@+id/txtPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:text="@string/priceValue"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txt2"
+        app:layout_constraintStart_toEndOf="@+id/txt2"
+        app:layout_constraintTop_toBottomOf="@+id/txtDateExpire" />
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/txtOne"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txt2"
+        app:layout_constraintStart_toEndOf="@+id/txtCarId"
+        app:layout_constraintTop_toTopOf="@+id/txtCarId" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:text="@string/txtTwo"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/txtCarId"
+        app:layout_constraintStart_toEndOf="@+id/txtCarId"
+        app:layout_constraintTop_toBottomOf="@+id/txt1" />
+</androidx.constraintlayout.widget.ConstraintLayout>
